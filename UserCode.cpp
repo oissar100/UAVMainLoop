@@ -61,12 +61,12 @@ MainLoopOutput MainLoop(MainLoopInput const & in) {
   Vec3f aa = Vec3f(0,0,0); // commanded angular acceleration (rad/s^2)
   Vec3f av = Vec3f(0,0,0); // commanded angular velocity (rad/s)
 
-  /*if (in.userInput.buttonBlue){
+  if (in.userInput.buttonBlue){
         angDes = Vec3f(0,0.5236,0); // 30 degree pitch when blue button pressed
       }
   else{
       angDes = Vec3f(0,0,0); // 0 pitch otherwise
-    }*/
+    }
   
   // we commented out the pitch for the final competition
 
