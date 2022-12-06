@@ -67,6 +67,8 @@ MainLoopOutput MainLoop(MainLoopInput const & in) {
   else{
       angDes = Vec3f(0,0,0); // 0 pitch otherwise
     }*/
+  
+  // we commented out the pitch for the final competition
 
   if (in.currentTime < 1.0f) {
       estGyroBias = estGyroBias + (in.imuMeasurement.rateGyro / 500.0f); // update bias
